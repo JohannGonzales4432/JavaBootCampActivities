@@ -9,11 +9,13 @@ public class main {
 		
 		System.out.println(vehicle1.getBrand());
 		System.out.println(vehicle1.getNumberOfWheels());
+		vehicle1.startEngine();
 		vehicle1.refuel();
 		destroyVehicle(vehicle1);
 		
 		System.out.println(vehicle2.getBrand());
 		System.out.println(vehicle2.getNumberOfWheels());
+		vehicle2.startEngine();
 		vehicle2.refuel();
 		destroyVehicle(vehicle2);
 		
